@@ -101,7 +101,8 @@ def DecryptFile(encryptedFileString, key):
 
 def OneWayEncryptor(str, salt, dklen=32):
     #Encrypts a string with a given salt, returns encrypted string
-    hmacBy = PBKDF2(str, salt, dklen, 10000)    
+    saltBytes = bytes(salt, 'utf-8')
+    hmacBy = PBKDF2(str, saltBytes, dklen, 10000)       
     return "".join(map(chr,hmacBy))
     
 def GenerateSALT(key_size=32, overrideSize=False):

@@ -47,6 +47,8 @@ class CommandHandler:
         
     def Run(self, command):
         self.WillClear() # Clears the console screen if neccessary
+        if(command == ""):
+            return
         cmd = command.split()
         leadCmd = cmd[0].lower()
         cmdParams = []

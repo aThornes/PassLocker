@@ -15,7 +15,7 @@ seperator = "<$*\"g>"
 sep2 = "%2hb&1"
 userpassSep = "~83*£0"
 #Filepaths (default) ---
-winPath = "G:/Documents/Programming/Python/PassLocker/TestingFiles"
+winPath = "C:/Users/ad199/Documents/Programming/Python/PassLocker/PyLocker/datafiles"
 piPath = "/home/pi/passlocker"
 backupPath = ""
 securityPath = "E:/PSLKS"
