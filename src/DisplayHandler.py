@@ -163,6 +163,12 @@ def GetDialouge(indexNo):
         return ["Something went wrong, attempt unsuccessful"]
     elif(indexNo==68):
         return ["The following files failed to copy:"]
+        
+    #Config help
+    elif(indexNo==80):
+        return["-config help"]
+    elif(indexNo==81):
+        return["Configuration help","---------------------------","-config view                               : shows current configuration options", "-config edit <setting name> <setting value>: Update setting"]
       
 #Writes the string out (letter by letter)
 def out(indexNo, delay=0.02, prefix = ""):    

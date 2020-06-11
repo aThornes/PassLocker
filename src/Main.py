@@ -104,7 +104,9 @@ def ConfigManager(splitCommand):
     updated = False
     cmd = splitCommand[1]
     #Need following commands: view, edit <command> <value>, reset
-    if(cmd == "view" or cmd == "v"):
+    if(cmd == "" or cmd == "h" or cmd == "help"):
+        console.out(81)
+    elif(cmd == "view" or cmd == "v"):
         console.out(10)
         for setting in FileHandler.ReadSettingsFile():            
             if(setting[0] != "#" and setting[0] != " "):
@@ -250,8 +252,6 @@ while(not credentialPass):
         credentialPass = verification
 
         
-
-#Create tempory security file with encrypted hash to prevent password bypass - TODO
 PasswordLocker()
 
    

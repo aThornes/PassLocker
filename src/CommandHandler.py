@@ -96,6 +96,7 @@ class CommandHandler:
     def Help(self, params):
         if(len(params) == 0):            
             console.outs([0,27], 0.02)
+            console.out(80, 0.007, ">")
             for command in self.commandList:
                 toPrint = command.Title() + " "
                 for params in command.Parameters():
