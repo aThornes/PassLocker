@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='PassLocker',
-      version='1.1.0',
+      version='3.4.0',
       description='Secure password locker program',
       author='Adam Thornes',
       packages=['pyCryptodome'],
