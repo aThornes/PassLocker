@@ -1,4 +1,4 @@
-Local only password locker build in Python. Supported by Windows and Linux, built originally for use on RasperianOS.
+Local only password locker built for Python 3.7. Supported by Windows and Linux, built originally for use on RasperianOS.
 
 To run the program:
 1. Ensure python is installed (intended version 3.7.3)
