@@ -1,0 +1,5 @@
+#Settings file, (recommend editing within the program):
+sffpsl=C:/Users/ad199/Documents/Programming/Python/PassLocker/PyLocker/datafiles
+fileloc=C:/Users/ad199/Documents/Programming/Python/PassLocker/PyLocker/datafiles
+quickwrite=False
+backuppath=DEFAULT
